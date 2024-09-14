@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+}
+
+.nav .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 70px;
+}
+
+.nav .title i {
+    font-size: 28px;
+    color: #191A23;
+}
+
+.nav .title h1 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #191A23;
+}
+
+.nav .list {
+    width: 65%;
+    height: 70px;
+}
+
+.nav .list ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav .list ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #191A23;
+}
+
+.nav .list .req {
+    width: 200px;
+    height: 70px;
+    border: 2px solid #191A23;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav .menu {
+    width: 25%;
+    height: 70px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .menu i {
+    font-size: 30px;
+    color: #191A23;
+}
+
+@media(max-width:1000px) and (min-width:880px) {
+    .nav .title {
+        width: 30%;
+    }
+
+    .nav .list {
+        width: 70%;
+    }
+
+}
+
+@media(max-width:880px) and (min-width:660px) {
+    .nav .title {
+        width: 40%;
+    }
+
+    .nav .list {
+        display: none;
+    }
+
+    .nav .menu {
+        display: flex;
+    }
+}
+
+@media(max-width:660px) {
+    .nav .title {
+        width: 60%;
+    }
+
+    .nav .list {
+        display: none;
+    }
+
+    .nav .menu {
+        display: flex
+    }
+}
+
+/* Nav CSS End */
+
+.cover_one {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cover_one .cover_sub {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.cover_one .cover_img {
+    object-fit: contain;
+}
+
+.cover_one .cover_text h1 {
+    margin: 0px 0px 0px 25px;
+    font-size: 38px;
+    font-weight: 100;
+    color: #191A23;
+}
+
+.cover_one .cover_text .margin_top {
+    margin-top: 25px;
+}
+
+.cover_one .cover_text p {
+    margin: 25px 0px 0px 25px;
+    width: 80%;
+    font-size: 16px;
+    color: #191A23;
+}
+
+.cover_one .cover_text button {
+    margin: 25px 0px 0px 25px;
+    width: 30%;
+    height: 45px;
+    border: 2px solid #191A23;
+    border-radius: 7px;
+    background-color: #191A23;
+    font-size: 16px;
+    color: #F3F3F3;
+}
+
+.media_cover_end {
+    height: 250px;
+    display: none;
+}
+
+.cover_one .media_cover_end p {
+    margin: 25px 0px 0px 25px;
+    width: 80%;
+    font-size: 16px;
+    color: #191A23;
+}
+
+.cover_one .media_cover_end button {
+    margin: 25px 0px 0px 25px;
+    width: 30%;
+    height: 45px;
+    border: 2px solid #191A23;
+    border-radius: 7px;
+    background-color: #191A23;
+    font-size: 16px;
+    color: #F3F3F3;
+}
+
+
+@media(max-width:1000px) and (min-width:880px) {
+    .cover_one {
+        height: 450px;
+    }
+
+    .cover_one .cover_sub {
+        height: 450px;
+    }
+
+    .cover_one .cover_text button {
+        width: 45%;
+    }
+}
+
+@media(max-width:880px) and (min-width:660px) {
+    .cover_one {
+        height: 800px;
+    }
+
+    .cover_one .cover_text {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cover_one .cover_img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .cover_one .media_cover_end {
+        display: block;
+    }
+
+    .cover_one .media_cover {
+        display: none;
+    }
+
+    .cover_one .cover_text h1 {
+        font-size: 36px;
+    }
+
+    .cover_one .media_cover_end button {
+        width: 40%;
+    }
+}
+
+@media(max-width:660px) {
+    .cover_one {
+        height: 800px;
+    }
+
+    .cover_one .cover_text {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cover_one .cover_img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .cover_one .media_cover_end {
+        display: block;
+    }
+
+    .cover_one .media_cover {
+        display: none;
+    }
+
+    .cover_one .cover_text h1 {
+        font-size: 36px;
+    }
+
+    .cover_one .media_cover_end button {
+        width: 45%;
+    }
+}
+
+/* Cover CSS End */
+
+.aws {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-bottom: 2px solid #191A23;
+}
+
+.aws img {
+    width: 12%;
+    height: 70px;
+    object-fit: contain;
+}
+
+@media(max-width:1000px)and (min-width:880px) {}
+
+@media(max-width:880px)and (min-width:660px) {
+    .aws {
+        height: 200px;
+    }
+
+    .aws img {
+        width: 25%;
+    }
+}
+
+@media(max-width:660px) {
+    .aws {
+        height: 200px;
+    }
+
+    .aws img {
+        width: 30%;
+    }
+}
+
+/* Amazon Css End */
+
+.service {
+    border: 2px solid red;
+    width: 100%;
+    height: 450px;
+}
+
+.service .service_header {
+    width: 100%;
+    height: 100px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .service_header h2 {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 100;
+    background-color: #B9FF66;
+    color: #191A23;
+}
+
+.service .service_header p {
+    width: 50%;
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    color: #191A23;
+}
+
+.service .service_card {
+    width: 100%;
+    height: 350px;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service .service_card .card {
+    box-shadow: 0px 10px 10px 0px rgba(25, 26, 35, 0.75);
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(25, 26, 35, 0.75);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(25, 26, 35, 0.75);
+}
+
+.service .service_card .card {
+    width: 40%;
+    height: 300px;
+    border: 2px solid #191A23;
+    border-radius: 15px;
+    display: flex;
+}
+
+.service_card .card .prt {
+    width: 50%;
+    height: 300px;
+    border: 2px solid orange;
+}
+
+.service_card .card .card_text .card_margin_top {
+    margin: 25px 0px 0px 25px;
+}
+
+.service_card .card .card_text h3 {
+    width: 70%;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0px 0px 0px 25px;
+    background-color: #B9FF66;
+    color: #191A23;
+}
+
+.service_card .card .card_text button {
+    margin: 15px 0px 0px 25px;
+    width: 150px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #191A23;
+    border: none;
+}
+
+.service_card .card .card_text button .cir {
+    width: 60px;
+    height: 60px;
+     font-size: 16px;
+    border-radius: 50%;
+    color: #B9FF66;
+    background-color: #191A23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_card .green_bg {
+    background-color: #B9FF66;
+}
+
+.service .service_card .card .green_bg {
+    background-color: #B9FF66;
+
+}
+
+.service .service_card .card .white_bg {
+    background-color: #F3F3F3;
+}
+
+@media(max-width:1000px)and (min-width:880px) {
+    .service .service_header h2{
+        width: 15%;
+    }
+
+    .service .service_header p{
+        width: 60%;
+    }
+    .service_card .card .card_text h3{
+        font-size: 20px;
+    }
+
+    .service_card .card .card_text button{
+        margin-left: 10px;
+    }
+
+    .service_card .card .card_text button .cir{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media(max-width:880px)and (min-width:660px) {
+    .service{
+        
+    }
+    
+    .service .service_header h2{
+        width: 15%;
+    }
+
+
+
+    .service .service_header p{
+        width: 75%;
+    }
+
+    .service_card .card  .card_text h3{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:660px) {
+    .service .service_header h2{
+        width: 25%;
+    }
+
+    .service .service_header p{
+        width:75% ;
+        font-size: 14px;
+    }
+}
