@@ -363,10 +363,16 @@
     border: 2px solid #191A23;
     border-radius: 15px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .service_card .card .prt {
     width: 50%;
+    height: 300px;
+}
+
+.service_card .card_img img {
+    width: 100%;
     height: 300px;
 }
 
@@ -399,7 +405,7 @@
 .service_card .card .card_text button .cir {
     width: 60px;
     height: 60px;
-     font-size: 16px;
+    font-size: 16px;
     border-radius: 50%;
     color: #B9FF66;
     background-color: #191A23;
@@ -412,105 +418,702 @@
     background-color: #B9FF66;
 }
 
-.service .service_card .card .green_bg {
-    background-color: #B9FF66;
-
-}
 
 .service .service_card .card .white_bg {
     background-color: #F3F3F3;
 }
 
 @media(max-width:1000px)and (min-width:880px) {
-    .service .service_header h2{
+    .service .service_header h2 {
         width: 15%;
     }
 
-    .service .service_header p{
+    .service .service_header p {
         width: 60%;
     }
-    .service_card .card .card_text h3{
+
+    .service_card .card .card_text h3 {
         font-size: 20px;
     }
 
-    .service_card .card .card_text button{
+    .service_card .card .card_text button {
         margin-left: 10px;
     }
 
-    .service_card .card .card_text button .cir{
+    .service_card .card .card_text button .cir {
         width: 50px;
         height: 50px;
     }
 }
 
 @media(max-width:880px)and (min-width:660px) {
-    .service{
-    height: 800px;
+    .service {
+        height: 800px;
     }
 
-    .service .service_card{
+    .service .service_card {
         height: 700px;
     }
 
-    .service .service_card .card{
+    .service .service_card .card {
         width: 80%;
     }
-    
-    .service_card .card_text h3{
+
+    .service_card .card_text h3 {
         font-size: 26px;
     }
-    .service .service_header h2{
+
+    .service .service_header h2 {
         width: 15%;
     }
 
 
 
-    .service .service_header p{
+    .service .service_header p {
         width: 75%;
     }
 
-    .service_card .card  .card_text h3{
+    .service_card .card .card_text h3 {
         font-size: 22px;
     }
 }
 
 @media(max-width:660px) {
-    .service{
+    .service {
         height: 800px;
-        }
-    
-        .service .service_card{
-            height: 700px;
-        }
-    
-        .service .service_card .card{
-            width: 80%;
-        }
-        
-        .service_card .card_text h3{
-            font-size: 26px;
-        }
-        .service .service_header h2{
+    }
 
-            width: 20%;
-        }
+    .service .service_card {
+        height: 700px;
+    }
+
+    .service .service_card .card {
+        width: 80%;
+    }
+
+    .service_card .card_text h3 {
+        font-size: 26px;
+    }
+
+    .service .service_header h2 {
+
+        width: 20%;
+    }
+
+    .service_card .card .card_text button {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .service_card .card .card_text button .cir {
+        width: 50px;
+        height: 50px;
+    }
+
+    .service .service_header p {
+        width: 75%;
+        font-size: 12px;
+    }
+
+    .service_card .card .card_text h3 {
+        font-size: 22px;
+    }
+}
+
+/* Service CSs End */
+
+
+.faq {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faq .faq_head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq .faq_head h2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 100;
+    background-color: #B9FF66;
+    color: #191A23;
+}
+
+.faq .faq_head p {
+    width: 50%;
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    color: #191A23;
+}
+
+.faq .faq_card {
+    width: 80%;
+    height: auto;
+}
+
+.faq .faq_card .green_bg {
+    background-color: #B9FF66;
+    color: #191A23;
+}
+
+.faq .faq_card .num_font {
+    padding: 0px 5px 0px 0px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+@media(max-width:1000px) and (min-width:880px) {
+    .faq .faq_head h2 {
+        width: 25%;
+    }
+
+    .faq .faq_head p {
+        width: 60%;
+    }
+}
+
+@media(max-width:880px) and (min-width:660px) {
+    .faq .faq_head h2 {
+        width: 33%;
+    }
+
+    .faq .faq_head p {
+        width: 60%;
+    }
+}
+
+@media(max-width:660px) {
+    .faq .faq_head h2 {
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .faq .faq_head p {
+        width: 60%;
+    }
+}
+
+/* Faq CSS End */
+
+.contact {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact .con_head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .con_head h2 {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 100;
+    background-color: #B9FF66;
+    color: #191A23;
+}
+
+.contact .con_head p {
+    width: 50%;
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    color: #191A23;
+}
+
+.contact .con_card {
+    width: 80%;
+    height: 580px;
+    display: flex;
+}
+
+.contact .con_card {
+    box-shadow: 0px 10px 10px 0px rgba(25, 26, 35, 0.75);
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(25, 26, 35, 0.75);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(25, 26, 35, 0.75);
+}
+
+.con_card .con_form {
+    width: 70%;
+    height: 580px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con_card .con_img {
+    width: 30%;
+    height: 580px;
+    overflow: hidden;
+}
+
+.con_card .con_img img {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+
+
+
+.con_card .con_form form {
+    width: 80%;
+    height: 500px;
+}
+
+.con_card .con_form .radio_input {
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: #B9FF66;
+}
+
+.con_card .con_form .form_font {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #191A23;
+}
+
+.con_card .con_form .con_input {
+    width: 60%;
+    height: 40px;
+    border: 2px solid #191A23;
+    border-radius: 15px;
+}
+
+.con_card .con_form .con_input:placeholder-shown {
+    text-align: center;
+}
+
+.con_card .con_form .text_area {
+    width: 60%;
+    height: 100px;
+    border: 2px solid #191A23;
+    border-radius: 15px;
+}
+
+.con_card .con_form button {
+    margin-top: 15px;
+    width: 60%;
+    height: 45px;
+    border: 2px solid #191A23;
+    font-size: 16px;
+    color: white;
+    background-color: #191A23;
+    border-radius: 15px;
+}
+
+@media(max-width:1000px)and (min-width:880px) {
+    .contact .con_head h2 {
+        width: 20%;
+    }
+
+    .contact .con_head p {
+        width: 60%;
+    }
+
+    .con_card .con_form .con_input {
+        width: 80%;
+    }
+
+    .con_card .con_form .text_area {
+        width: 80%;
+    }
+
+    .con_card .con_form button {
+        width: 80%;
+    }
+
+}
+
+@media(max-width:880px)and (min-width:660px) {
+    .contact .con_head h2 {
+        width: 20%;
+    }
+
+    .contact .con_head p {
+        width: 70%;
+    }
+
+    .con_card .con_img {
+        display: none;
+    }
+
+    .con_card .con_form {
+        width: 100%;
+    }
+
+    .con_card .con_form .con_input {
+        width: 80%;
+    }
+
+    .con_card .con_form .text_area {
+        width: 80%;
+    }
+
+    .con_card .con_form button {
+        width: 80%;
+    }
+}
+
+@media(max-width:660px) {
+    .contact .con_head h2 {
+        width: 20%;
+    }
+
+    .contact .con_head p {
+        width: 70%;
+    }
+
+    .con_card .con_img {
+        display: none;
+    }
+
+    .con_card .con_form {
+        width: 100%;
+    }
+
+    .con_card .con_form .con_input {
+        width: 90%;
+    }
+
+    .con_card .con_form .text_area {
+        width: 90%;
+    }
+
+    .con_card .con_form button {
+        width: 90%;
+    }
+}
+
+/* Contact CSS End */
+
+.footer {
+    background-color: #191A23;
+    color: #F3F3F3;
+    width: 100%;
+    height: 450px;
+}
+
+.footer .top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .top .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+}
+
+.footer .top .title i {
+    font-size: 28px;
+    color: #F3F3F3;
+}
+
+.footer .top .title h1 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #F3F3F3;
+}
+
+.footer .top .list {
+    width: 40%;
+    height: 100px;
+}
+
+.footer .top .list ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.footer .top .list ul li a {
+    text-decoration: underline;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+.footer .top .icons {
+    width: 20%;
+    height: 100px;
+}
+
+.footer .top .icons ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.footer .top .icons ul li a {
+    text-decoration: none;
+}
+
+.footer .top .icons ul li a i {
+    font-size: 28px;
+    color: #F3F3F3;
+}
+
+.footer .bottom {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .bottom .footer_con {
+    width: 40%;
+    height: 250px;
+}
+
+.footer .bottom .footer_con h2 {
+    margin: 25px 0px 0px 25px;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+    width: 35%;
+    color: #191A23;
+    background-color: #B9FF66;
+}
+
+.footer .bottom .footer_con p {
+    margin: 25px 0px 0px 25px;
+    font-size: 18px;
+}
+
+.footer .bottom .footer_input {
+    width: 60%;
+    height: 250px;
+    background-color: #292a32;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer .bottom .footer_input input {
+    width: 45%;
+    height: 65px;
+    border: 2px solid #F3F3F3;
+    border-radius: 15px;
+    background-color: #292a32;
+    color: #F3F3F3;
+}
+
+.footer .bottom .footer_input input:placeholder-shown {
+    text-align: center;
+}
+
+.footer .bottom .footer_input button {
+    width: 45%;
+    height: 65px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #B9FF66;
+    border-radius: 15px;
+    background-color: #B9FF66;
+}
+
+.footer .rights {
+    border-top: 2px solid #F3F3F3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .rights p {
+    margin: 0px 25px 0px 0px;
+    font-size: 18px;
+}
+
+.footer .rights a {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #F3F3F3;
+}
+
+@media(max-width:1000px)and (min-width:880px) {
+    .footer .top .title {
+        width: 25%;
+    }
+
+    .footer .top .list {
+        width: 50%;
+    }
+
+    .footer .top .icons {
+        width: 25%;
+    }
+
+    .footer .bottom .footer_con h2 {
+        width: 55%;
+    }
+}
+
+@media(max-width:880px)and (min-width:660px) {
+    .footer {
+        height: 1050px;
+    }
+
+    .footer .top {
+        height: 450px;
+    }
+
+    .footer .top .title {
+        width: 100%;
+        height: 100px;
+    }
+
+    .footer .top .list {
+        width: 100%;
+        height: 250px;
+    }
+
+    .footer .top .list ul{
+        height: 250px;
+    }
     
-        .service_card .card .card_text button{
-            margin-left: 10px;
-            font-size: 14px;
-        }
+    .footer .top .list ul li {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+
+    .footer .top .icons {
+        width: 100%;
+        height: 100px;
+    }
+
+    .footer .top .icons ul{
+        height: 100px;
+    }
+
+    .footer .top .icons ul li{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .footer .bottom {
+        height: 500px;
+    }
+
+    .footer .bottom .footer_con{
+        width: 100%;
+    }
+
+    .footer .bottom .footer_input{
+        width: 100%;
+    }
+
+    .footer .bottom .footer_input input,
+    .footer .bottom .footer_input button{
+        width: 80%;
+    }
+
+    .footer .rights {
+        height: 100px;
+    }
+}
+
+@media(max-width:660px) {
+    .footer {
+        height: 1050px;
+    }
+
+    .footer .top {
+        height: 450px;
+    }
+
+    .footer .top .title {
+        width: 100%;
+        height: 100px;
+    }
+
+    .footer .top .list {
+        width: 100%;
+        height: 250px;
+    }
+
+    .footer .top .list ul{
+        height: 250px;
+    }
     
-        .service_card .card .card_text button .cir{
-            width: 50px;
-            height: 50px;
-        }
-    
-        .service .service_header p{
-            width: 75%;
-            font-size: 12px;
-        }
-    
-        .service_card .card  .card_text h3{
-            font-size: 22px;
-        }
+    .footer .top .list ul li {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .footer .top .icons {
+        width: 100%;
+        height: 100px;
+    }
+
+    .footer .top .icons ul{
+        height: 100px;
+    }
+
+    .footer .top .icons ul li{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .footer .bottom {
+        height: 500px;
+    }
+
+    .footer .bottom .footer_con{
+        width: 100%;
+    }
+
+    .footer .bottom .footer_input{
+        width: 100%;
+    }
+
+    .footer .bottom .footer_input input,
+    .footer .bottom .footer_input button{
+        width: 80%;
+    }
+
+    .footer .rights {
+        height: 100px;
+    }
 }

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
@@ -71,29 +73,152 @@
                     expedita, quidem optio earum laudantium quae.</p>
             </div>
             <div class="service_card">
-                <div class="card">
+                <div class="card d_flex">
                     <div class="prt card_text">
                         <h3 class="card_margin_top">Search engine</h3>
                         <h3>optimization</h3>
                         <button><span class="cir"><i class="fa-solid fa-arrow-right"></i></span>Learn More</button>
                     </div>
                     <div class="prt card_img">
-                        <img src="./Hackaton Assests/card_one.png" width="100%" height="300px" >
+                        <img src="./Hackaton Assests/card_one.png">
                     </div>
                 </div>
-                <div class="card green_bg">
+                <div class="card green_bg d_flex">
                     <div class="prt card_text">
                         <h3 class="card_margin_top white_bg">Pay-per-click</h3>
                         <h3 class="white_bg">advertising</h3>
-                        <button class="green_bg"><span class="cir"><i class="fa-solid fa-arrow-right"></i></span>Learn More</button>
+                        <button class="green_bg"><span class="cir"><i class="fa-solid fa-arrow-right"></i></span>Learn
+                            More</button>
                     </div>
                     <div class="prt card_img">
-                        <img src="./Hackaton Assests/card_two.png" width="100%" height="300px" >
+                        <img src="./Hackaton Assests/card_two.png">
                     </div>
                 </div>
             </div>
         </div>
+        <div class="faq">
+            <div class="faq_head">
+                <h2>Our Working Process</h2>
+                <p>Step-by-step Guide to Achieving Your Businees Goals</p>
+            </div>
+            <div class="faq_card">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item  m-5">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne ">
+                                <span class="num_font">01</span> Consultation
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse green_bg"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Perferendis consectetur quaerat mollitia id? Similique, dolor saepe. Ad, officiis. Cum,
+                                iure!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item m-5">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <span class="num_font">02</span> Research and Stratrgy Development
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse green_bg"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Dignissimos aperiam laudantium nemo alias voluptas quod possimus ipsam, natus ipsum
+                                aliquid!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item m-5">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <span class="num_font">03</span> Implementation
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse green_bg"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                                magni nostrum quam modi consequuntur dignissimos et perspiciatis illum aut non.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="con_head">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nostrum voluptas nam expedita iure
+                    dolor.</p>
+            </div>
+            <div class="con_card">
+                <div class="con_card_sub con_form">
+                    <form>
+                        <input type="radio" class="radio_input" name="Hi" id="hi">
+                        <label class="form_font" for="hi">Say Hi</label>
+                        <input type="radio" class="radio_input" name="Get a Quote" id="quote">
+                        <label class="form_font" for="quote">Get a Quote</label>
+                        <p class="form_font">Name</p>
+                        <input type="text" id="naam" class="con_input" placeholder="Name">
+                        <p class="form_font">Email*</p>
+                        <input type="email" placeholder="Email" class="con_input">
+                        <p class="form_font">Message</p>
+                        <textarea placeholder="Message" class="text_area" name="message" id="message"></textarea>
+                        <button>Send Message</button>
+                    </form>
+                </div>
+                <div class="con_card_sub con_img">
+                    <img src="./Hackaton Assests/contact_form.PNG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="top">
+                <div class="title">
+                    <i class="fa-solid fa-star"></i>
+                    <h1>Positivus</h1>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">About Us </a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Use Cases</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/hani-rashid-92a12a288/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/haanirashid"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="footer_con">
+                    <h2>Contact us:</h2>
+                    <p>Email : haaniirashid@mail.com</p>
+                    <p>GitHub : haanirashid</p>
+                </div>
+                <div class="footer_input">
+                    <input type="text" placeholder="Email">
+                    <button>Subscribe to news</button>
+                </div>
+            </div>
+            <div class="rights">
+                <p>Hani Rashid. All Rights Reserved.</p>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>
